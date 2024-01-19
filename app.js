@@ -19,7 +19,7 @@ scene.add(light);
 
 // Load your .obj file
 const objLoader = new OBJLoader();
-objLoader.load('/path/to/your/room.obj', function (object) {
+objLoader.load('models/computerroom.obj', function (object) {
   scene.add(object);
   // Add loaded object to collidableMeshList
   collidableMeshList.push(object);
